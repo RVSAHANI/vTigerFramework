@@ -7,7 +7,6 @@ import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
 
 public class AccountPage extends CommonActions {
-
     public AccountPage(WebDriver driver) {
         super(driver);
         this.driver = driver;
@@ -21,12 +20,9 @@ public class AccountPage extends CommonActions {
     @FindBy(name="button")
     WebElement btn_save;
 
-
-
     public void createAccount(String Aname)
     {
         SetAccountName(Aname);
-
         clickSave();
     }
 
@@ -37,7 +33,6 @@ public class AccountPage extends CommonActions {
 
     public void clickSave()
     {
-
         clickElement(btn_save);
     }
 }
