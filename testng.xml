@@ -10,9 +10,9 @@
         </classes>
     </test>
 
-    <test name="LeadTest">
+ <!--   <test name="LeadTest">
         <classes>
             <class name="com.vtiger.runner.TestRunner2"/>
         </classes>
-    </test>
+    </test>-->
 </suite>

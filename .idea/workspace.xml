@@ -5,8 +5,17 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="77733519-299b-43e1-b562-c1a7c216aa18" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/vtiger/Stepdefinitions/accountsteps.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/Features/Account.feature" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/com/vtiger/pages/AccountPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/vtiger/pages/AccountPage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/vtiger/pages/LoginPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/vtiger/pages/LoginPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/vtiger/pages/HomePage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/vtiger/pages/HomePage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/vtiger/pages/PageObjectManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/vtiger/pages/PageObjectManager.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/vtiger/runner/TestRunner.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/vtiger/runner/TestRunner.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/Config/configData.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/Config/configData.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/TestData/data.xlsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/TestData/data.xlsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/testng.xml" beforeDir="false" afterPath="$PROJECT_DIR$/testng.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -21,24 +30,32 @@
     </option>
   </component>
   <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="main" />
+      </map>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
-  "lastFilter": {
-    "state": "OPEN",
-    "assignee": "automationtesthub"
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;automationtesthub&quot;
   }
-}]]></component>
+}</component>
   <component name="GithubPullRequestsUISettings"><![CDATA[{
   "selectedUrlAndAccountId": {
-    "url": "https://github.com/sahilmalviya8103/cucumberframework.git",
-    "accountId": "b7b288cb-ef90-4f1b-8074-d4cd2cda5346"
+    "url": "https://github.com/RVSAHANI/vTigerFramework.git",
+    "accountId": "7c6dea4c-833f-41ce-bcd0-66d09a35aeed"
   }
 }]]></component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 4
 }</component>
   <component name="ProjectId" id="30OxRTTIcEfO7v3A8ZplaDv7qkz" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -46,9 +63,11 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "JUnit.TestRunner.executor": "Run",
+    "ModuleVcsDetector.initialDetectionPerformed": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "TestNG.D:/Selenium/batch/SeleniumApril25_Weekend/CucumberFramework/testng.xml.executor": "Run",
-    "git-widget-placeholder": "main",
+    "TestNG.TestRunner.executor": "Run",
+    "git-widget-placeholder": "Gunjan",
     "kotlin-language-version-configured": "true",
     "settings.editor.selected.configurable": "preferences.pluginManager"
   }
@@ -58,7 +77,7 @@
       <recent name="com.vtiger.runner" />
     </key>
   </component>
-  <component name="RunManager" selected="TestNG.D:/Selenium/batch/SeleniumApril25_Weekend/CucumberFramework/testng.xml">
+  <component name="RunManager" selected="TestNG.TestRunner">
     <configuration name="TestRunner" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="CucumberFramework" />
       <extension name="coverage">
@@ -84,8 +103,26 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="TestRunner" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="CucumberFramework" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.vtiger.runner.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.vtiger.runner" />
+      <option name="MAIN_CLASS_NAME" value="com.vtiger.runner.TestRunner" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG.TestRunner" />
         <item itemvalue="TestNG.D:/Selenium/batch/SeleniumApril25_Weekend/CucumberFramework/testng.xml" />
         <item itemvalue="JUnit.TestRunner" />
       </list>
@@ -106,6 +143,7 @@
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" type="java-line">
+          <condition expression="&quot;Cucumber+&quot;!=null" />
           <url>file://$PROJECT_DIR$/src/test/java/com/vtiger/Stepdefinitions/leadsteps.java</url>
           <line>17</line>
           <option name="timeStamp" value="1" />
