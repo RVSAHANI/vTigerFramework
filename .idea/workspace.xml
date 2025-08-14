@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="77733519-299b-43e1-b562-c1a7c216aa18" name="Changes" comment="">
+    <list default="true" id="77733519-299b-43e1-b562-c1a7c216aa18" name="Changes" comment="second first changes just removed space for trial commit">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/com/vtiger/pages/HomePage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/vtiger/pages/HomePage.java" afterDir="false" />
     </list>
@@ -23,7 +23,7 @@
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="main" />
+        <entry key="$PROJECT_DIR$" value="Shweta" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -34,12 +34,12 @@
     &quot;assignee&quot;: &quot;automationtesthub&quot;
   }
 }</component>
-  <component name="GithubPullRequestsUISettings"><![CDATA[{
-  "selectedUrlAndAccountId": {
-    "url": "https://github.com/RVSAHANI/vTigerFramework.git",
-    "accountId": "03d26df4-a540-48d3-a775-8781b3881878"
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/RVSAHANI/vTigerFramework.git&quot;,
+    &quot;accountId&quot;: &quot;03d26df4-a540-48d3-a775-8781b3881878&quot;
   }
-}]]></component>
+}</component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 4
 }</component>
@@ -56,9 +56,10 @@
     "JUnit.TestRunner.executor": "Run",
     "ModuleVcsDetector.initialDetectionPerformed": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.git.unshallow": "true",
     "TestNG.D:/Selenium/batch/SeleniumApril25_Weekend/CucumberFramework/testng.xml.executor": "Run",
     "TestNG.TestRunner.executor": "Run",
-    "git-widget-placeholder": "Shweta",
+    "git-widget-placeholder": "#6 on Shweta",
     "kotlin-language-version-configured": "true",
     "settings.editor.selected.configurable": "preferences.pluginManager"
   }
@@ -128,7 +129,38 @@
       <option name="presentableId" value="Default" />
       <updated>1753512414456</updated>
     </task>
+    <task id="LOCAL-00001" summary="Shweta first changes just added space for trial commit">
+      <option name="closed" value="true" />
+      <created>1755164997618</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1755164997618</updated>
+    </task>
+    <task id="LOCAL-00002" summary="Shweta first changes just removed space for trial commit">
+      <option name="closed" value="true" />
+      <created>1755179953893</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1755179953893</updated>
+    </task>
+    <task id="LOCAL-00003" summary="second first changes just removed space for trial commit">
+      <option name="closed" value="true" />
+      <created>1755180230830</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1755180230830</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Shweta first changes just added space for trial commit" />
+    <MESSAGE value="Shweta first changes just removed space for trial commit" />
+    <MESSAGE value="second first changes just removed space for trial commit" />
+    <option name="LAST_COMMIT_MESSAGE" value="second first changes just removed space for trial commit" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
