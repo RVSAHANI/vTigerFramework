@@ -23,7 +23,7 @@ public class AccountPage extends CommonActions {
     public void createAccount(String Aname)
     {
         SetAccountName(Aname);
-        clickSave();
+        clickSave();//
 
     }
 
@@ -36,5 +36,6 @@ public class AccountPage extends CommonActions {
     {
         clickElement(btn_save);
     }
+
 
 }
