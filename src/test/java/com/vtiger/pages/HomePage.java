@@ -16,6 +16,7 @@ public class HomePage extends CommonActions {
         PageFactory.initElements(driver,this);
     }
 
+
     @FindBy(linkText="Home")
     WebElement lnk_Home;
 
