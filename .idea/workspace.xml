@@ -4,18 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="77733519-299b-43e1-b562-c1a7c216aa18" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/vtiger/Stepdefinitions/accountsteps.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/resources/Features/Account.feature" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+    <list default="true" id="77733519-299b-43e1-b562-c1a7c216aa18" name="Changes" comment="resolved PR merge conflicts">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/vtiger/pages/AccountPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/vtiger/pages/AccountPage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/vtiger/pages/HomePage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/vtiger/pages/HomePage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/vtiger/pages/PageObjectManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/vtiger/pages/PageObjectManager.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/vtiger/runner/TestRunner.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/vtiger/runner/TestRunner.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/resources/Config/configData.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/Config/configData.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/resources/TestData/data.xlsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/TestData/data.xlsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/testng.xml" beforeDir="false" afterPath="$PROJECT_DIR$/testng.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -43,12 +33,12 @@
     &quot;assignee&quot;: &quot;automationtesthub&quot;
   }
 }</component>
-  <component name="GithubPullRequestsUISettings"><![CDATA[{
-  "selectedUrlAndAccountId": {
-    "url": "https://github.com/RVSAHANI/vTigerFramework.git",
-    "accountId": "7c6dea4c-833f-41ce-bcd0-66d09a35aeed"
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/RVSAHANI/vTigerFramework.git&quot;,
+    &quot;accountId&quot;: &quot;7c6dea4c-833f-41ce-bcd0-66d09a35aeed&quot;
   }
-}]]></component>
+}</component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 4
 }</component>
@@ -65,9 +55,10 @@
     "JUnit.TestRunner.executor": "Run",
     "ModuleVcsDetector.initialDetectionPerformed": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.git.unshallow": "true",
     "TestNG.D:/Selenium/batch/SeleniumApril25_Weekend/CucumberFramework/testng.xml.executor": "Run",
     "TestNG.TestRunner.executor": "Run",
-    "git-widget-placeholder": "Gunjan",
+    "git-widget-placeholder": "#5 on Gunjan",
     "kotlin-language-version-configured": "true",
     "settings.editor.selected.configurable": "preferences.pluginManager"
   }
@@ -137,7 +128,29 @@
       <option name="presentableId" value="Default" />
       <updated>1753512414456</updated>
     </task>
+    <task id="LOCAL-00001" summary=" Account feature implemented">
+      <option name="closed" value="true" />
+      <created>1755091034311</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1755091034312</updated>
+    </task>
+    <task id="LOCAL-00002" summary="resolved PR merge conflicts">
+      <option name="closed" value="true" />
+      <created>1755105866032</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1755105866033</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value=" Account feature implemented" />
+    <MESSAGE value="resolved PR merge conflicts" />
+    <option name="LAST_COMMIT_MESSAGE" value="resolved PR merge conflicts" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

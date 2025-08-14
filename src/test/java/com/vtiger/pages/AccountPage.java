@@ -24,6 +24,7 @@ public class AccountPage extends CommonActions {
     {
         SetAccountName(Aname);
         clickSave();
+
     }
 
     public void SetAccountName(String Aname)
