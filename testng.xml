@@ -4,6 +4,8 @@
     <listeners>
         <listener class-name="com.vtiger.utils.RetryTransformer"/>
     </listeners>
+
+
     <test name="LoginTest">
         <classes>
             <class name="com.vtiger.runner.TestRunner1"/>
@@ -13,6 +15,12 @@
     <test name="LeadTest">
         <classes>
             <class name="com.vtiger.runner.TestRunner2"/>
+        </classes>
+    </test>
+
+    <test name="ContactTest">
+        <classes>
+            <class name="com.vtiger.runner.TestRunner4"/>
         </classes>
     </test>
 </suite>

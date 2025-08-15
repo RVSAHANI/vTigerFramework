@@ -12,7 +12,7 @@ public class PageObjectManager {
     private LoginPage lp;
     private HomePage hp;
     private LeadPage ldp;
-
+    private  static ContactPage cp;
 
 
     // Lazy initialization for LoginPage
@@ -27,5 +27,8 @@ public class PageObjectManager {
 
     public LeadPage getLeadPage() {
         return (ldp == null) ? ldp = new LeadPage(driver) : ldp;
+    }
+    public ContactPage getContactPage() {
+        return (cp == null) ? cp = new ContactPage(driver) : cp;
     }
 }
