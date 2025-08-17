@@ -88,7 +88,7 @@ public class basesteps extends PageObjectManager {
                }
                 dt.put(TCName,map);
             }
-            System.out.println(dt);
+            System.out.println(dt +"Data table");
             recordset.close();
             connection.close();
         }
