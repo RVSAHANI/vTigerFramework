@@ -4,8 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="77733519-299b-43e1-b562-c1a7c216aa18" name="Changes" comment="resolved PR merge conflicts">
+    <list default="true" id="77733519-299b-43e1-b562-c1a7c216aa18" name="Changes" comment=" remaining changes3 for jenkins integration with git">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -58,6 +59,7 @@
     "RunOnceActivity.git.unshallow": "true",
     "TestNG.D:/Selenium/batch/SeleniumApril25_Weekend/CucumberFramework/testng.xml.executor": "Run",
     "TestNG.TestRunner.executor": "Run",
+    "TestNG.TestRunner2.executor": "Run",
     "git-widget-placeholder": "#5 on Gunjan",
     "kotlin-language-version-configured": "true",
     "settings.editor.selected.configurable": "preferences.pluginManager"
@@ -68,7 +70,7 @@
       <recent name="com.vtiger.runner" />
     </key>
   </component>
-  <component name="RunManager" selected="TestNG.TestRunner">
+  <component name="RunManager" selected="TestNG.D:/Selenium/batch/SeleniumApril25_Weekend/CucumberFramework/testng.xml">
     <configuration name="TestRunner" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="CucumberFramework" />
       <extension name="coverage">
@@ -111,10 +113,28 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="TestRunner2" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="CucumberFramework" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.vtiger.runner.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.vtiger.runner" />
+      <option name="MAIN_CLASS_NAME" value="com.vtiger.runner.TestRunner2" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="TestNG.TestRunner" />
         <item itemvalue="TestNG.D:/Selenium/batch/SeleniumApril25_Weekend/CucumberFramework/testng.xml" />
+        <item itemvalue="TestNG.TestRunner2" />
+        <item itemvalue="TestNG.TestRunner" />
         <item itemvalue="JUnit.TestRunner" />
       </list>
     </recent_temporary>
@@ -144,13 +164,75 @@
       <option name="project" value="LOCAL" />
       <updated>1755105866033</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="resolved PR merge conflicts">
+      <option name="closed" value="true" />
+      <created>1755159264556</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1755159264558</updated>
+    </task>
+    <task id="LOCAL-00004" summary="trial">
+      <option name="closed" value="true" />
+      <created>1755181821211</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1755181821213</updated>
+    </task>
+    <task id="LOCAL-00005" summary="trial 1">
+      <option name="closed" value="true" />
+      <created>1755183821572</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1755183821572</updated>
+    </task>
+    <task id="LOCAL-00006" summary="jenkins integration with git">
+      <option name="closed" value="true" />
+      <created>1755533958636</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1755533958636</updated>
+    </task>
+    <task id="LOCAL-00007" summary=" remaining changes for jenkins integration with git">
+      <option name="closed" value="true" />
+      <created>1755534433325</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1755534433326</updated>
+    </task>
+    <task id="LOCAL-00008" summary=" remaining changes1 for jenkins integration with git">
+      <option name="closed" value="true" />
+      <created>1755534950464</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1755534950464</updated>
+    </task>
+    <task id="LOCAL-00009" summary=" remaining changes3 for jenkins integration with git">
+      <option name="closed" value="true" />
+      <created>1755535508882</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1755535508882</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value=" Account feature implemented" />
     <MESSAGE value="resolved PR merge conflicts" />
-    <option name="LAST_COMMIT_MESSAGE" value="resolved PR merge conflicts" />
+    <MESSAGE value="trial" />
+    <MESSAGE value="trial 1" />
+    <MESSAGE value="jenkins integration with git" />
+    <MESSAGE value=" remaining changes for jenkins integration with git" />
+    <MESSAGE value=" remaining changes1 for jenkins integration with git" />
+    <MESSAGE value=" remaining changes3 for jenkins integration with git" />
+    <option name="LAST_COMMIT_MESSAGE" value=" remaining changes3 for jenkins integration with git" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
