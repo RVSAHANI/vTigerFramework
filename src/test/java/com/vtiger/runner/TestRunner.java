@@ -11,8 +11,8 @@ import org.testng.annotations.Listeners;
 @CucumberOptions(
         features = "src/test/resources/Features/",
         glue = "com.vtiger.Stepdefinitions",
-        dryRun = false,
-        tags = "@lead",
+        dryRun = true,
+        tags = "@cp",
         monochrome = true,
         plugin = {
                 "pretty",

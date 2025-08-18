@@ -6,7 +6,7 @@
     </listeners>
     <test name="LoginTest">
         <classes>
-            <class name="com.vtiger.runner.TestRunner1"/>
+            <class name="com.vtiger.runner.TestRunner"/>
         </classes>
     </test>
 
