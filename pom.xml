@@ -84,10 +84,11 @@
                         <suiteXmlFile>testng.xml</suiteXmlFile>
                     </suiteXmlFiles>
                     <parallel>tests</parallel>
-                    <threadCount>2</threadCount>
+                    <threadCount>1</threadCount>
                 </configuration>
             </plugin>
         </plugins>
     </build>
+
 
 </project>
