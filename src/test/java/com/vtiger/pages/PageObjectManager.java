@@ -7,14 +7,12 @@ import org.openqa.selenium.WebDriver;
 public class PageObjectManager {
 
     public static WebDriver driver;
-
     // Declare all page objects
     private LoginPage lp;
     private HomePage hp;
     private LeadPage ldp;
     private AccountPage ap;
-
-
+    private  ContactPage cp;
 
     // Lazy initialization for LoginPage
     public LoginPage getLoginPage() {
@@ -33,4 +31,6 @@ public class PageObjectManager {
     public AccountPage getAccountPage() {return (ap == null) ? ap = new AccountPage(driver) : ap;
     }
 
+    public ContactPage getContactPage() {return (cp == null) ? cp = new ContactPage(driver) : cp;
+    }
 }
