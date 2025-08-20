@@ -7,9 +7,7 @@ import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
 
 public class ContactPage extends CommonActions
-
 {
-
     public ContactPage(WebDriver driver)
     {
         super(driver);
@@ -17,7 +15,6 @@ public class ContactPage extends CommonActions
 
         PageFactory.initElements(driver,this);
         //  ClickCOntact();
-
     }
 
     @FindBy(name="button")
@@ -38,9 +35,6 @@ public class ContactPage extends CommonActions
 
     @FindBy(name="account_name")
     WebElement cnt_actname;
-
-
-
 
     public  void enterFirstLAstNAme(String fname,String lname){
 

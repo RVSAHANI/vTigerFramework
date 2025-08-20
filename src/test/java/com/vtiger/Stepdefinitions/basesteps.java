@@ -38,6 +38,7 @@ public class basesteps extends PageObjectManager {
         readproperties();
         readExcel();
         //System.exit(1);
+        System.out.println("brower----"+prop.getProperty("browser"));
         if(prop.getProperty("browser").equalsIgnoreCase("edge"))
         {
             driver = new EdgeDriver();
@@ -56,6 +57,7 @@ public class basesteps extends PageObjectManager {
             driver = new ChromeDriver();
         }
         driver.get(prop.getProperty("url"));
+        System.out.println("brower----"+prop.getProperty("browser"));
 
     }
 
