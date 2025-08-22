@@ -26,6 +26,9 @@ public class HomePage extends CommonActions {
     @FindBy(linkText="New Lead")
     WebElement lnk_NewLead;
 
+    @FindBy(linkText="New Account")
+    WebElement lnk_NewAccount;
+
     public void HomeDisplay()
     {
         ElementExist(lnk_Home);
@@ -41,4 +44,8 @@ public class HomePage extends CommonActions {
         clickElement(lnk_NewLead);
     }
 
+    public void clickNewAccount()
+    {
+        clickElement(lnk_NewAccount);
+    }
 }

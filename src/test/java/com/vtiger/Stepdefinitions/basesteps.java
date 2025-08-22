@@ -38,15 +38,19 @@ public class basesteps extends PageObjectManager {
         readproperties();
         readExcel();
         //System.exit(1);
-        if(prop.getProperty("browser").equalsIgnoreCase("edge"))
+
+        String browser = System.getProperty("browser", "edge"); // default chrome
+        String url = System.getProperty("url", "http://localhost:100"); // default url
+
+        if(browser.equalsIgnoreCase("edge"))
         {
             driver = new EdgeDriver();
         }
-        else if(prop.getProperty("browser").equalsIgnoreCase("firefox"))
+        else if(browser.equalsIgnoreCase("firefox"))
         {
             driver = new FirefoxDriver();
         }
-        else if(prop.getProperty("browser").equalsIgnoreCase("headless"))
+        else if(browser.equalsIgnoreCase("headless"))
         {
             ChromeOptions options = new ChromeOptions();
             options.addArguments("--headless=new");
@@ -55,7 +59,7 @@ public class basesteps extends PageObjectManager {
         else {
             driver = new ChromeDriver();
         }
-        driver.get(prop.getProperty("url"));
+        driver.get(url);
 
     }
 

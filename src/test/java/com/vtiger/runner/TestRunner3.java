@@ -5,14 +5,13 @@ package com.vtiger.runner;
 
 import io.cucumber.testng.AbstractTestNGCucumberTests;
 import io.cucumber.testng.CucumberOptions;
-import org.testng.annotations.Listeners;
 
 
 @CucumberOptions(
-        features = "src/test/resources/Features/",
+        features = "src/test/resources/Features/Account.feature",
         glue = "com.vtiger.Stepdefinitions",
         dryRun = false,
-        tags = "@smoke",
+        tags = "@ap",
         monochrome = true,
         plugin = {
                 "pretty",
@@ -21,11 +20,8 @@ import org.testng.annotations.Listeners;
                 "junit:target/cucumber-reports/cucumber.xml",
                 "com.aventstack.extentreports.cucumber.adapter.ExtentCucumberAdapter:"
         }
-
-
 )
-
-public class TestRunner extends AbstractTestNGCucumberTests {
+public class TestRunner3 extends AbstractTestNGCucumberTests {
 
      /*   @Override
         @DataProvider(parallel = true)

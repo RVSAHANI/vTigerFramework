@@ -4,15 +4,22 @@
     <listeners>
         <listener class-name="com.vtiger.utils.RetryTransformer"/>
     </listeners>
-    <test name="LoginTest">
+   <!-- <test name="LoginTest">
         <classes>
-            <class name="com.vtiger.runner.TestRunner1"/>
+            <class name="com.vtiger.runner.TestRunner"/>
         </classes>
-    </test>
+    </test>-->
 
-    <test name="LeadTest">
+ <!--   <test name="LeadTest">
         <classes>
             <class name="com.vtiger.runner.TestRunner2"/>
         </classes>
+    </test>-->
+
+    <test name="AccountTest">
+        <classes>
+            <class name="com.vtiger.runner.TestRunner3"/>
+        </classes>
     </test>
+
 </suite>

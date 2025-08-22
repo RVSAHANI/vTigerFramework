@@ -4,6 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
+
     <list default="true" id="77733519-299b-43e1-b562-c1a7c216aa18" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -18,6 +19,7 @@
     </option>
   </component>
   <component name="Git.Settings">
+
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
   <component name="GitHubPullRequestSearchHistory">{
@@ -28,6 +30,7 @@
 }</component>
   <component name="GithubPullRequestsUISettings">{
   &quot;selectedUrlAndAccountId&quot;: {
+
     &quot;url&quot;: &quot;https://github.com/sahilmalviya8103/cucumberframework.git&quot;,
     &quot;accountId&quot;: &quot;b7b288cb-ef90-4f1b-8074-d4cd2cda5346&quot;
   }
@@ -36,6 +39,9 @@
   &quot;associatedIndex&quot;: 4
 }</component>
   <component name="ProjectId" id="30OxRTTIcEfO7v3A8ZplaDv7qkz" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -43,11 +49,10 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "JUnit.TestRunner.executor": "Run",
+    "ModuleVcsDetector.initialDetectionPerformed": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.git.unshallow": "true",
     "TestNG.D:/Selenium/batch/SeleniumApril25_Weekend/CucumberFramework/testng.xml.executor": "Run",
-    "git-widget-placeholder": "master",
-    "ignore.virus.scanning.warn.message": "true",
     "kotlin-language-version-configured": "true",
     "settings.editor.selected.configurable": "preferences.pluginManager"
   }
@@ -83,9 +88,45 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="TestRunner" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="CucumberFramework" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.vtiger.runner.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.vtiger.runner" />
+      <option name="MAIN_CLASS_NAME" value="com.vtiger.runner.TestRunner" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestRunner2" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="CucumberFramework" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.vtiger.runner.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.vtiger.runner" />
+      <option name="MAIN_CLASS_NAME" value="com.vtiger.runner.TestRunner2" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
         <item itemvalue="TestNG.D:/Selenium/batch/SeleniumApril25_Weekend/CucumberFramework/testng.xml" />
+        <item itemvalue="TestNG.TestRunner2" />
+        <item itemvalue="TestNG.TestRunner" />
         <item itemvalue="JUnit.TestRunner" />
       </list>
     </recent_temporary>
@@ -99,6 +140,79 @@
       <option name="presentableId" value="Default" />
       <updated>1753512414456</updated>
     </task>
+    <task id="LOCAL-00001" summary=" Account feature implemented">
+      <option name="closed" value="true" />
+      <created>1755091034311</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1755091034312</updated>
+    </task>
+    <task id="LOCAL-00002" summary="resolved PR merge conflicts">
+      <option name="closed" value="true" />
+      <created>1755105866032</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1755105866033</updated>
+    </task>
+    <task id="LOCAL-00003" summary="resolved PR merge conflicts">
+      <option name="closed" value="true" />
+      <created>1755159264556</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1755159264558</updated>
+    </task>
+    <task id="LOCAL-00004" summary="trial">
+      <option name="closed" value="true" />
+      <created>1755181821211</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1755181821213</updated>
+    </task>
+    <task id="LOCAL-00005" summary="trial 1">
+      <option name="closed" value="true" />
+      <created>1755183821572</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1755183821572</updated>
+    </task>
+    <task id="LOCAL-00006" summary="jenkins integration with git">
+      <option name="closed" value="true" />
+      <created>1755533958636</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1755533958636</updated>
+    </task>
+    <task id="LOCAL-00007" summary=" remaining changes for jenkins integration with git">
+      <option name="closed" value="true" />
+      <created>1755534433325</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1755534433326</updated>
+    </task>
+    <task id="LOCAL-00008" summary=" remaining changes1 for jenkins integration with git">
+      <option name="closed" value="true" />
+      <created>1755534950464</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1755534950464</updated>
+    </task>
+    <task id="LOCAL-00009" summary=" remaining changes3 for jenkins integration with git">
+      <option name="closed" value="true" />
+      <created>1755535508882</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1755535508882</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="UnknownFeatures">
@@ -108,11 +222,13 @@
     <option featureType="dependencySupport" implementationName="java:org.testng:testng" />
     <option featureType="dependencySupport" implementationName="java:org.seleniumhq.selenium:selenium-java" />
     <option featureType="dependencySupport" implementationName="java:org.projectlombok:lombok" />
+
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" type="java-line">
+          <condition expression="&quot;Cucumber+&quot;!=null" />
           <url>file://$PROJECT_DIR$/src/test/java/com/vtiger/Stepdefinitions/leadsteps.java</url>
           <line>17</line>
           <option name="timeStamp" value="1" />
